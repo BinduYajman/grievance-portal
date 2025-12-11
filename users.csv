@@ -1,3 +1,5 @@
-username,password,region,area_code,is_admin
-admin,password,"Indiranagar, Bengaluru",560038,1
-resident,password,"Indiranagar, Bengaluru",560038,0
+id,username,password_hash,is_admin,region,area_code
+e2c55aec-0a73-44ae-a212-f929a3d077cf,admin,240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9,1,Park View Colony,1234
+cce7157c-26df-4aff-9855-e500b65c8e4c,user1,e6c3da5b206634d7f3f3586d747ffdb36b5c675757b380c6a5fe5c570c714349,0,Park View Colony,1234
+0383531c-4398-4f3c-a1d7-0ba070296f9f,user2,1ba3d16e9881959f8c9a9762854f72c6e6321cdd44358a10a4e939033117eab9,0,Park View Colony,5678
+3b96f45c-80d5-4f3a-bf63-27d17b02d71e,outsider,9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08,0,Riverwood Heights,9999
