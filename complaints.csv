@@ -1,3 +1,3 @@
-id,username,name,house,category,description,attachment,created_at,status,department,admin_notes,latitude,longitude,sla_due,priority
-1,user1,user1,C 81,Infrastructure/Roads,Major damage to the pavement on Main Street near the clubhouse. This hazard requires urgent attention to prevent pedestrian falls,12826a98-c6d4-4194-aa80-7d6ab2f490a4.jpg,2025-12-11T00:55:15.324848,Open,Sanitation Dept.,nnjf,12.9142,76.60170000000001,2025-12-14T00:55:15.324848,High Priority
-2,user1,user1,fgdg,Sanitation,fdf,,2025-12-11T01:56:21.719589,status_in_progress,,,12.914969999999999,76.60247000000001,2025-12-18T01:56:21.719589,priority_standard
+id,created_at,username,name,house,category,priority,description,status,department,admin_notes,attachment,latitude,longitude,sla_due
+94AE76FB,2025-12-11T06:17:44.857513,resident,resident,c 81,Water Supply,priority_standard,water supply cutoff,status_in_progress,Unassigned,,,,,2025-12-12T06:17:44.857513
+CC0236B1,2025-12-11T06:30:17.698991,resident,resident,c 81,Sanitation,priority_standard,hii,status_in_progress,Not Yet Assigned,,,,,2025-12-14T06:30:17.698991
