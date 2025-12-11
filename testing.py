@@ -8,7 +8,15 @@ import uuid
 import re 
 import pandas as pd 
 from io import BytesIO 
+import streamlit as st
 
+# FIX
+if "language" not in st.session_state:
+    st.session_state["language"] = "en"
+
+st.set_page_config(page_title="System Title", page_icon="📝", layout="wide")
+
+lang = st.session_state.language
 # -------------------------
 # Config / file locations
 # -------------------------
@@ -1485,4 +1493,5 @@ else:
         community_post_ui(st.session_state.user)
         
     with tab_bot:
+
         chatbot_ui()
